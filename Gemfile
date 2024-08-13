@@ -10,7 +10,8 @@ gem "request_store", require: false
 
 group :development do
   gem "simplecov", require: false
-  gem "pry-nav", "~> 0.2.4"
+  gem "pry", "~> 0.14"
+  gem "pry-nav", "~> 1.0"
   gem "standard", "~> 0.1.0"
   gem "rubocop"
   gem "rubocop-performance"
